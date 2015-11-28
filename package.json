@@ -1,0 +1,43 @@
+{
+  "name": "web-media-playback",
+  "version": "1.0.0",
+  "description": "Retrieve playback and buffering information about audio or video playing in the browser",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "https://github.com/hughsk"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^12.0.1",
+    "budo": "^6.1.0",
+    "soundcloud-badge": "^1.0.0"
+  },
+  "scripts": {
+    "prepublish": "browserify demo.js -o bundle.js",
+    "start": "budo demo.js"
+  },
+  "keywords": [
+    "web",
+    "media",
+    "audio",
+    "video",
+    "playback",
+    "buffering",
+    "progress",
+    "loaded",
+    "buffer",
+    "scrubber",
+    "seek"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/web-media-playback.git"
+  },
+  "homepage": "https://github.com/hughsk/web-media-playback",
+  "bugs": {
+    "url": "https://github.com/hughsk/web-media-playback/issues"
+  }
+}
